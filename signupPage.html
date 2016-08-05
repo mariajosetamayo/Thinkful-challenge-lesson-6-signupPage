@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>AnalogSea signup page</title>
+	<meta charset="utf-8" name="description" content="Forms and inputs challenge exercise for Thinkful's front end web development course">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!--styles -->
+	<link rel="stylesheet" type="text/css" href="signupPage.css">
+</head>
+<body>
+
+	<!-- Logo top page -->
+	<header>
+		<div class= "top">
+			<img class= "logo" src="analogSea.png">
+		</div>
+	</header>
+
+	<!-- Signup section -->
+		<form class="signUpScreen" action="/signup/" method="post">
+			<legend class="signUpLegend">Sign up</legend>
+			<label for="email">Email</label><input id="email" name="email" type="email" placeholder="foo@bar.com" required>
+			<label for="password">Password</label><input id="password" name="password" type="password" placeholder="1234passwOrd" required>
+			<button type="submit">Sign Up</button>
+			<p>
+				<a href="/forgot_password/new">Forgot password?</a>
+			</p>		
+		</form>
+
+		<div class="logIn">
+			<p>Already have an account?<a href="/login">Log in</a></p>
+		</div>
+
+	
+
+</body>
+</html>
